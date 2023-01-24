@@ -20,7 +20,7 @@ Repo="https://github.com/SHRP/manifest.git"                                     
 Branch="shrp-12.1"                                                                                  #<--- Set Source Branch here (SHRP-12.1, android-12.1 for PBRP or twrp-12.1)
 
 # Initialize Repo Manifest (SHRP/TWRP/PBRP)
-repo init --depth=1 -u ${Repo} -b ${BRANCH}                                                    
+repo init -u https://github.com/SHRP/manifest.git -b shrp-12.1
 
 # Sync Repo
 repo sync -j$(nproc) --force-sync --no-clone-bundle --no-tags
