@@ -17,7 +17,7 @@
 
 # Variables
 Repo="https://github.com/SHRP/manifest.git"                                                         #<--- Change the wanted Repo here (Link to SHRP, PBRP or TWRP Manifest Link)
-Branch="SHRP-12.1"                                                                                  #<--- Set Source Branch here (SHRP-12.1, android-12.1 for PBRP or twrp-12.1)
+Branch="shrp-12.1"                                                                                  #<--- Set Source Branch here (SHRP-12.1, android-12.1 for PBRP or twrp-12.1)
 
 # Initialize Repo Manifest (SHRP/TWRP/PBRP)
 repo init --depth=1 -u ${Repo} -b ${BRANCH}                                                    
