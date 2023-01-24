@@ -19,7 +19,7 @@
 Device="z3s"                                                                                         #<--- Set Device Codename here
 OEM="samsung"                                                                                        #<--- Set Device Manufactor here
 DeviceTree="https://github.com/Nico170420/android_device_samsung_z3s.git"                            #<--- Put Device Tree Link here
-DT-Branch="shrp"                                                                                     #<--- Set the DT Branch Name here
+DTBranch="shrp"                                                                                     #<--- Set the DT Branch Name here
 
 # Cloning the Device Tree
-git clone ${DeviceTree} -b ${DT-Branch} device/${OEM}/${Device}
+git clone ${DeviceTree} -b ${DTBranch} device/${OEM}/${Device}
