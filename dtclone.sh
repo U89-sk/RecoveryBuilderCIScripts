@@ -22,4 +22,4 @@ DeviceTree="https://github.com/Nico170420/android_device_samsung_z3s.git"       
 DT-Branch="shrp"                                                                                     #<--- Set the DT Branch Name here
 
 # Cloning the Device Tree
-git clone ${DeviceTree} -b ${DT-BRANCH} device/${OEM}/${Device}
+git clone ${DeviceTree} -b ${DT-Branch} device/${OEM}/${Device}
