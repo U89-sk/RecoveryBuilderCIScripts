@@ -22,9 +22,9 @@ Device="RMX1851"                    #<--- Set Device Codename here
 Output="out/target/product/${Device}"
 
 # Code
-if [ -d $Output/SHRP*.zip ]; then
+if [ -a $Output/SHRP*.zip ]; then
     Files="SHRP*.zip"
-elif [ -d $Output/PBRP*.zip ]; then
+elif [ -a $Output/PBRP*.zip ]; then
     Files="PBRP*.zip"
 else
     Files="recovery.img"
