@@ -21,7 +21,7 @@ Device="RMX1851"                    #<--- Set Device Codename here
 # Outputfolder
 Output="out/target/product/${Device}"
 
-# Build the Code
+# Code
 if [ ! -d $Output/SHRP*.zip ]; then
     Files="SHRP*.zip"
 elif [ ! -d $Output/PBRP*.zip ]; then
