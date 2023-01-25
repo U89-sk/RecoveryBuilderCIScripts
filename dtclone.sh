@@ -16,10 +16,10 @@
 # limitations under the License.
 
 # Variables
-Device="z3s"                                                                                         #<--- Set Device Codename here
-OEM="samsung"                                                                                        #<--- Set Device Manufactor here
-DeviceTree="https://github.com/Nico170420/android_device_samsung_z3s.git"                            #<--- Put Device Tree Link here
-DTBranch="shrp"                                                                                     #<--- Set the DT Branch Name here
+Device="RMX1851"                                                                                            #<--- Set Device Codename here
+OEM="realme"                                                                                                #<--- Set Device Manufactor here
+DeviceTree="https://github.com/U89-sk/android_device_realme_RMX1851-shrp"                                   #<--- Put Device Tree Link here
+DTBranch="android-13.0"                                                                                     #<--- Set the DT Branch Name here
 
 # Cloning the Device Tree
 git clone ${DeviceTree} -b ${DTBranch} device/${OEM}/${Device}
