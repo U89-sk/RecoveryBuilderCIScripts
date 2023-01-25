@@ -16,7 +16,7 @@
 # limitations under the License.
 
 # Variables
-Device="z3s"                                                                                         #<--- Set Device Codename here
+Device="RMX1851"                                                                                         #<--- Set Device Codename here
 TARGET="recoveryimage"                                                                               #<--- Set Target (recoveryimage or pbrp)
 
 # Setup the Build Enviroment
