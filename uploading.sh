@@ -16,25 +16,16 @@
 # limitations under the License.
 
 # Variables
-Device="RMX1851"                    #<--- Set Device Codename here
-#Files="SHRP*.zip"                   #<--- Set Files to upload here (SHRP*.zip, PBRP*.zip, recovery.img)
+Device="RMX1851"                          #<--- Set Device Codename here
+
 # Outputfolder
 Output="out/target/product/${Device}"
-
-# Code
-if [ -a $Output/SHRP*.zip ]; then
-    Files="SHRP*.zip"
-elif [ -a $Output/PBRP*.zip ]; then
-    Files="PBRP*.zip"
-else
-    Files="recovery.img"
-fi
-
-# Switch to Outputfolder
-#cd /tmp/cirrus-ci-build/out/target/product/${Device}/
 
 # Download Upload Script
 curl -sL https://git.io/file-transfer | sh
 
 # Upload
-./transfer wet ${Output}/${Files}
+./transfer wet ${Output}/recovery.img
+./transfer wet ${Output}/SHRP*.zip
+./transfer wet ${Output}/PBRP*.zip
+
