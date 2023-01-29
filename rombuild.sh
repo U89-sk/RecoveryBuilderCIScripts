@@ -9,5 +9,5 @@ export LC_ALL=C
 export CONFIG_STATE_NOTIFIER=y
 export SELINUX_IGNORE_NEVERALLOWS=true
 export ALLOW_MISSING_DEPENDENCIES=true
-lunch $LUNCH_COMBO
+lunch lineage_RMX1851-userdebug
 make -j31 bacon
