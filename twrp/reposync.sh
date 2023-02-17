@@ -17,7 +17,7 @@
 
 # Variables
 MRepo="https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git"                     #<--- Change the wanted Repo here (Link to SHRP, PBRP or TWRP Manifest Link)
-MBranch="twrp-12.1"                                                                                    #<--- Set Source Branch here (SHRP-12.1, android-12.1 for PBRP or twrp-12.1)
+MBranch="twrp-11"                                                                                    #<--- Set Source Branch here (SHRP-12.1, android-12.1 for PBRP or twrp-12.1)
 
 # Initialize Repo Manifest (SHRP/TWRP/PBRP)
 repo init -u ${MRepo} -b ${MBranch}
