@@ -18,8 +18,8 @@
 # Variables
 Device="RMX1851"                                                                                            #<--- Set Device Codename here
 OEM="realme"                                                                                                #<--- Set Device Manufactor here
-DeviceTree="https://github.com/U89-sk/android_device_realme_RMX1851-twrp"                                   #<--- Put Device Tree Link here
-DTBranch="android-13.0"                                                                                     #<--- Set the DT Branch Name here
+DeviceTree="https://github.com/Think-Thought/android_device_realme_RMX1851-twrp"                                   #<--- Put Device Tree Link here
+DTBranch="a11-RUI2"                                                                                     #<--- Set the DT Branch Name here
 
 # Cloning the Device Tree
 git clone ${DeviceTree} -b ${DTBranch} device/${OEM}/${Device}
